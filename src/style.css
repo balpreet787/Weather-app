@@ -1,0 +1,41 @@
+body{
+    display: grid;
+    grid-template-rows: 6vh 90vh;
+    margin: 0;
+    background-size: cover;
+}
+header{
+    display: grid;
+    grid-template-columns: 80vw 10vw;
+    gap: 5vw;
+}
+.userEntry{
+   background: rgba(255, 255, 255, 0.2);
+}
+.search{
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+.currentWeather{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.2);
+}
+.cityName{
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+}
+.tempDiv{
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+.moreInfo{
+    display: flex;
+    background: rgba(255, 255, 255, 0.2);
+    justify-content: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+}
